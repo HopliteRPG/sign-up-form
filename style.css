@@ -1,0 +1,70 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+@font-face {
+    font-family: 'Norse';
+    src: url('fonts/Norse-Bold.woff') format('woff'),
+        url('fonts/Norse-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* left section */
+
+.left-section{
+    display: flex;
+    width: 30%;
+    background: url("photos/leaf-background.avif") no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+
+
+.odin-logo-div{
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0 0 0 / 60%);
+    width: 100%;
+    margin-bottom: 250px;
+}
+
+
+
+.odin-logo-img{
+    height: 100%;
+}
+
+.odin-logo-text{
+    font-size: 6rem;
+    font-family: "Norse";
+    color: white;
+}
+
+
+
+
+/* right section */
+
+.right-section{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.right-section > .right-section-child{
+    display: flex;
+    flex: 1;
+    background-color: lightblue;
+}
