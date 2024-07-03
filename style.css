@@ -68,3 +68,15 @@ body{
     flex: 1;
     background-color: lightblue;
 }
+
+.top-right-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+
+.top-right-section-text{
+    font-weight: bold;
+}
