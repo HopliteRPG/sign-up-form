@@ -80,3 +80,8 @@ body{
 .top-right-section-text{
     font-weight: bold;
 }
+
+.bottom-right-section-submit-button{
+    background-color: #596D48;
+    color: white;
+}
