@@ -69,6 +69,8 @@ body{
     background-color: lightblue;
 }
 
+/* top right section */
+
 .top-right-section{
     display: flex;
     flex-direction: column;
@@ -81,7 +83,24 @@ body{
     font-weight: bold;
 }
 
+/* middle right section */
+.middle-right-section{
+    display: flex;
+    flex-direction: column;
+}
+
+/* bottom right section */
+
+.bottom-right-section{
+    display: flex;
+    flex-direction: column;
+}
+
 .bottom-right-section-submit-button{
     background-color: #596D48;
     color: white;
+    border: none;
+    border-radius: 6px;
+    width: 200px;
+    height: 50px;
 }
