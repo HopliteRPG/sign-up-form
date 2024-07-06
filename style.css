@@ -18,6 +18,14 @@ body{
     font-display: swap;
 }
 
+
+
+.top-right-section,.bottom-right-section{
+    background-color: #f3f4f6;
+}
+
+
+
 /* left section */
 
 .left-section{
@@ -66,7 +74,6 @@ body{
 .right-section > .right-section-child{
     display: flex;
     flex: 1;
-    background-color: lightblue;
 }
 
 /* top right section */
@@ -86,8 +93,30 @@ body{
 /* middle right section */
 .middle-right-section{
     display: flex;
-    flex-direction: column;
 }
+
+form{
+    width: 100%;
+}
+
+fieldset{
+    border: none;
+    width: 100%;
+}
+
+.top-form-row,.middle-form-row,.bottom-form-row{
+    display: flex;
+    flex-direction: row;
+}
+
+label,input{
+  display:flex;
+  flex-direction:column;
+}
+
+
+
+
 
 /* bottom right section */
 
@@ -104,3 +133,6 @@ body{
     width: 200px;
     height: 50px;
 }
+
+
+
