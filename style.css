@@ -1,3 +1,7 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 html, body {
     margin: 0;
     height: 100%;
@@ -102,17 +106,38 @@ form{
 fieldset{
     border: none;
     width: 100%;
+    padding-left: 25px;
 }
 
 .top-form-row,.middle-form-row,.bottom-form-row{
     display: flex;
     flex-direction: row;
+    
+}
+
+.top-form-row div,.middle-form-row div,.bottom-form-row div{
+  padding-right: 40px;
+  padding-top: 17px;
+    
 }
 
 label,input{
   display:flex;
   flex-direction:column;
+  font-size: 0.7rem;
+  
 }
+
+label{
+    font-weight: bold;
+}
+
+legend{
+    padding-top: 15px;
+    font-size: 1.2rem;
+}
+
+
 
 
 
