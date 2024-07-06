@@ -125,12 +125,15 @@ label,input{
   display:flex;
   flex-direction:column;
   font-size: 0.7rem;
-  
 }
 
 label{
     font-weight: bold;
 }
+
+
+
+
 
 legend{
     padding-top: 15px;
@@ -148,6 +151,8 @@ legend{
 .bottom-right-section{
     display: flex;
     flex-direction: column;
+    padding-left: 50px;
+    padding-top: 30px;
 }
 
 .bottom-right-section-submit-button{
@@ -157,6 +162,11 @@ legend{
     border-radius: 6px;
     width: 200px;
     height: 50px;
+    margin-bottom: 20px;
+}
+
+.bottom-right-section-submit-button:hover{
+    cursor: pointer;
 }
 
 
