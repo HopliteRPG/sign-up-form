@@ -137,7 +137,20 @@ input{
     width: 200px;
     border: 1px solid #E5E7EB;
     border-radius: 4px;
+    padding: 3px;
 }
+
+input:invalid{
+    border: 1px solid red;
+
+}
+
+input:focus{
+    border: 1px solid blue;
+
+}
+
+
 
 
 
