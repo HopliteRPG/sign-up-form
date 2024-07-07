@@ -172,7 +172,7 @@ legend{
 .bottom-right-section{
     display: flex;
     flex-direction: column;
-    padding-left: 50px;
+    padding-left: 25px;
     padding-top: 30px;
 }
 
