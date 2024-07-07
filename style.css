@@ -145,15 +145,15 @@ input:invalid{
 
 }
 
+#user_password:invalid + p{
+    opacity: 1;
+
+}
+
 input:focus{
     border: 1px solid blue;
 
 }
-
-
-
-
-
 
 
 legend{
@@ -161,10 +161,13 @@ legend{
     font-size: 1.2rem;
 }
 
+.invalid-password-text{
+    margin: 0;
+    opacity: 0;
+    color: red;
+    font-size: 0.7rem;
 
-
-
-
+}
 
 
 /* bottom right section */
