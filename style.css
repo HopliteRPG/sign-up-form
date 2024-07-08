@@ -38,6 +38,8 @@ body{
     background: url("photos/leaf-background.avif") no-repeat;
     background-size: cover;
     align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
@@ -49,7 +51,7 @@ body{
     justify-content: center;
     background-color: rgb(0 0 0 / 60%);
     width: 100%;
-    margin-bottom: 350px;
+    margin-top: 150px;
 }
 
 
@@ -66,7 +68,14 @@ body{
 
 }
 
+.credit-text{
+    color: white;
+    font-size: 0.8rem;
+}
 
+.credit-text a{
+    color: white;
+}
 
 
 /* right section */
